@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+.todos-bg-container {
+  background-color: #f9fbfe;
+  height: 100vh;
+}
+
+.todos-heading {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 46px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.create-task-heading,
+.todo-items-heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.create-task-heading-subpart,
+.todo-items-heading-subpart {
+  font-weight: 500;
+}
+
+.todo-user-input {
+  background-color: white;
+  width: 100%;
+  border: 1px solid #e4e7eb;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+.button {
+  color: white;
+  background-color: #4c63b6;
+  font-family: "Roboto";
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding: 5px 20px;
+}
+
+.todo-items-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item-container {
+  margin-top: 15px;
+}
+
+.label-container {
+  background-color: #e6f6ff;
+  width: 100%;
+  border-left: 5px solid #096f92;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin: 12px;
+}
+
+.checkbox-label {
+  font-family: "Roboto";
+  font-size: 16px;
+  width: 82%;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.delete-icon-container {
+  width: 18%;
+  text-align: right;
+}
+
+.delete-icon {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+}
